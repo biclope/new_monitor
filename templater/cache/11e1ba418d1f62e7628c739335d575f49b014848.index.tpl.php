@@ -11,7 +11,7 @@ $_smarty_tpl->decodeProperties(array (
     '726d6c6e3ca239b9a833cf5b2ff5129e06223833' => 
     array (
       0 => 'templater/templates/header.tpl',
-      1 => 1311686526,
+      1 => 1311686652,
       2 => 'file',
     ),
     '842bac026f5dd110dbd21fb27f9b89ca2295151f' => 
@@ -27,9 +27,10 @@ $_smarty_tpl->decodeProperties(array (
 )); /*/%%SmartyHeaderCode%%*/?>
 <?php if (!$no_render) {?><html>
 <head>
-<title>Game Monitor - Серверная статистика, мониторинг, рейтинги игровых серверов</title>
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Game Monitor - Серверная статистика, мониторинг, рейтинги игровых серверов</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel='stylesheet' href='style.css' type='text/css' media='all' />
 </head>
 <body bgcolor="#ccc">
 

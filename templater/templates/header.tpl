@@ -5,4 +5,4 @@
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link rel='stylesheet' href='style.css' type='text/css' media='all' />
 </head>
-<body bgcolor="#ccc">
+<body>

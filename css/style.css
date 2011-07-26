@@ -1,0 +1,215 @@
+.bottommain {
+background-image:url(images/botton2.png);
+background-repeat:repeat-x;
+color:silver;
+padding-bottom:10px;
+width:100%;
+}
+
+a {
+color:#A3AFDD;
+font:verdana, tahoma, arial, helvetica, sans-serif;
+font-weight:700;
+text-decoration:underline;
+}
+
+a:hover {
+color:#0BDBEF;
+text-decoration:underline;
+}
+
+body {
+background-color:#414141;
+background-image:url(images/bg.png);
+color:#FFF;
+margin:0;
+}
+
+.border2 {
+border:#D5D5D5 1px solid;
+}
+
+blockquote {
+color:#545555;
+font:italic 11px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.bodytable2 {
+border:#D5D5D5 1px solid;
+color:#404040;
+font:11px verdana, tahoma, arial, helvetica, sans-serif;
+padding:8px;
+}
+
+.cat {
+background-image:url(images/logob2.PNG);
+color:#fff;
+font:bold 10px Arial,sans-serif;
+text-align:center;
+}
+
+.defaulttext {
+color:#000;
+font:10px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+ul,ol {
+margin-bottom:0;
+margin-top:0;
+}
+
+.fcaption a {
+color:#ffc;
+text-decoration:underline;
+}
+
+.fcaption a:hover {
+color:#cc9;
+text-decoration:underline;
+}
+
+.smalltext {
+color:#ABABAF;
+font:bold 10px Tahoma,Verdana,sans-serif;
+}
+
+.indent {
+background-color:#E3E2D7;
+border:1px solid;
+border-bottom:#FFF 1px solid;
+border-left:#000 1px solid;
+border-right:#FFF 1px solid;
+border-top:#000 1px solid;
+color:#000;
+font:9px verdana, tahoma, arial, sans-serif;
+margin:5px;
+padding:3px;
+}
+
+#maincontent td {
+color:#FFF;
+font:12px verdana, tahoma, arial, helvetica, sans-serif;
+text-align:left;
+}
+
+.mediumtext {
+color:#000;
+font:11px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.captiontext {
+color:#000;
+font:14px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.tbox {
+background-color:#ECEBF4;
+border:#A9ABAE 1px solid;
+color:#A9ABAE;
+font:bold 10px verdana, tahoma, arial, sans-serif;
+}
+
+.tbox.chatbox {
+margin-left:auto;
+margin-right:auto;
+width:80%;
+}
+
+.nextprev {
+background-color:#745B49;
+background-image:url(images/wgbg.png);
+border:1px solid #745B49;
+color:#745B49;
+font:normal 9px verdana, tahoma, arial, helvetica, sans-serif;
+padding:2px;
+text-align:center;
+}
+
+.button {
+background-color:#141720;
+background-image:url(images/button.png);
+border:#141720 1px solid;
+color:#A9ABAE;
+font:bold 9px verdana, tahoma, arial, helvetica, sans-serif;
+text-align:center;
+}
+
+.np {
+background-color:#eaeef2;
+border:#000 1px solid;
+color:#000;
+font:9px verdana, tahoma, arial, helvetica, sans-serif;
+padding:2px;
+text-align:center;
+}
+
+form {
+margin:0;
+padding:0;
+}
+
+.spacer {
+padding:2px 0;
+}
+
+hr {
+border-bottom:#eee 1px solid;
+border-top:#666 1px solid;
+height:2px;
+text-align:center;
+width:92%;
+}
+
+#refresh {
+background:#000;
+display:none;
+text-align:center;
+vertical-align:middle;
+width:100%;
+}
+
+.row1 {
+background-color:#4f4f4f;
+}
+
+.row2 {
+background-color:#424242;
+}
+
+input.checkbox,input.myradio {
+background:transparent;
+border:0;
+font-size:11px;
+vertical-align:middle;
+}
+
+input,textarea,select,textarea.myinput {
+background:#2F2F2F;
+border:1px solid #4f4f4f;
+color:#FFF;
+font:14px "trebuchet ms",tahoma,arial,serif;
+}
+
+table.regform {
+width:100%;
+}
+
+.regform td {
+border-bottom:0;
+border-left:0;
+font-family:verdana, helvetica, sans-serif;
+font-size:11px;
+margin:1px 0 0;
+padding:6px;
+width:25%;
+}
+
+.border,.border3 {
+border:#000 1px solid;
+}
+
+.bodytable,.bodytable3 {
+color:#000;
+font:10px verdana, tahoma, arial, helvetica, sans-serif;
+padding:8px;
+}
