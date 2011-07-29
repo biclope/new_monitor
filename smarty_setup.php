@@ -9,7 +9,7 @@ class Smarty_monitor extends Smarty {
         $this->config_dir   = 'templater/configs/';
         $this->cache_dir    = 'templater/cache/';
 
-        $this->caching = true;
+        $this->caching = false;
         $this->assign('app_name', 'Game Monitor');
         $this->assign("app_description", "Серверная статистика, мониторинг, рейтинги игровых серверов");
         $this->assign("slogan", "Играй, а не лагай!");

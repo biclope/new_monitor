@@ -1,10 +1,31 @@
+<?php /* Smarty version Smarty-3.0.8, created on 2011-07-29 13:47:33
+         compiled from "templater/templates/header.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:21420988804e328fc5f2d667-28187089%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '726d6c6e3ca239b9a833cf5b2ff5129e06223833' => 
+    array (
+      0 => 'templater/templates/header.tpl',
+      1 => 1311936451,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '21420988804e328fc5f2d667-28187089',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+)); /*/%%SmartyHeaderCode%%*/?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
 
  
-<title>{$app_name} - {$app_description}</title>
+<title><?php echo $_smarty_tpl->getVariable('app_name')->value;?>
+ - <?php echo $_smarty_tpl->getVariable('app_description')->value;?>
+</title>
  
 <link rel="stylesheet" href="./style.css" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />	

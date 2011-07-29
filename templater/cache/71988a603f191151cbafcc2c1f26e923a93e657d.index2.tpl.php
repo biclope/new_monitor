@@ -1,27 +1,15 @@
-<?php /*%%SmartyHeaderCode:4987607394e32737c877c36-99805127%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11413029014e32709612c479-21381232%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '11e1ba418d1f62e7628c739335d575f49b014848' => 
+    '71988a603f191151cbafcc2c1f26e923a93e657d' => 
     array (
-      0 => 'templater/templates/index.tpl',
-      1 => 1311929628,
-      2 => 'file',
-    ),
-    '726d6c6e3ca239b9a833cf5b2ff5129e06223833' => 
-    array (
-      0 => 'templater/templates/header.tpl',
-      1 => 1311929001,
-      2 => 'file',
-    ),
-    '842bac026f5dd110dbd21fb27f9b89ca2295151f' => 
-    array (
-      0 => 'templater/templates/footer.tpl',
-      1 => 1311929554,
+      0 => 'templater/templates/index2.tpl',
+      1 => 1311928512,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '4987607394e32737c877c36-99805127',
+  'nocache_hash' => '11413029014e32709612c479-21381232',
   'cache_lifetime' => 3600,
   'has_nocache_code' => false,
 )); /*/%%SmartyHeaderCode%%*/?>
@@ -98,7 +86,7 @@ $_smarty_tpl->decodeProperties(array (
 			
 			<!-- BEGIN LOGO -->
 			<div id="logo">
-				<a href="./index.html"><img src="./images/logo.png" alt="Game Monitor" /></a>
+				<a href="./index.html"><img src="./images/logo.png" alt="LeetPress" /></a>
 			</div>
 			<!-- END LOGO -->
 			
@@ -165,7 +153,8 @@ $_smarty_tpl->decodeProperties(array (
 		</div>
 	
 	</div>
-	<!-- END HEADER -->	
+	<!-- END HEADER -->
+	
 	<!-- BEGIN SLIDER -->
 	<div class="slider">
 	
@@ -790,7 +779,7 @@ $_smarty_tpl->decodeProperties(array (
 		<!-- END SIDEBAR -->
 
 	<!-- END MAIN WRAPPER -->
-	 
+	
 	<!-- BEGIN FOOTER TOP -->
 	<div id="footer-top-wrapper">
 	
@@ -884,8 +873,8 @@ $_smarty_tpl->decodeProperties(array (
 		<!-- BEGIN FOOTER BOTTOM -->
 		<div id="footer-bottom">
 		
-			<span class="footer-bottom-left">Copyright &copy; fds 2011 - G-game team production.</span>
-			<span class="footer-bottom-right">Тридцать три коровы.</span>
+			<span class="footer-bottom-left">Copyright (C) 2011 - LeetPress. All rights reserved.</span>
+			<span class="footer-bottom-right">Web design by Sebastian Rosenkvist</span>
 		
 		</div>
 		<!-- END FOOTER BOTTOM -->
