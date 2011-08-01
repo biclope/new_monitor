@@ -1,6 +1,6 @@
 {include file = "header.tpl"}
 
-{if $slider eq true}
+{if $slider_show eq true}
 	{include file = "slider.tpl"}
 {/if}
 	<!-- BEGIN MAIN WRAPPER -->
@@ -9,7 +9,7 @@
 		<!-- BEGIN MAIN -->
 		<div id="main">
 			
-		{include file = "news.tpl"}
+		{include file = "index_news.tpl"}
 			
 		</div>
 		<!-- END MAIN -->
@@ -17,7 +17,7 @@
 		<!-- BEGIN SIDEBAR -->
 		<div id="sidebar">
 			
-			{if $banner eq true}
+			{if $banner_show eq true}
 			<!-- BEGIN WIDGET BANNER -->
 			<div class="widget-banner">
 			

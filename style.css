@@ -89,6 +89,32 @@ a:hover { text-decoration:underline; }
 	.news-meta { color:#777; float:left; }
 	.news-cats { float:right; }
 	.news-item p { line-height:18px; }
+	
+	/*	4.2. Servers	*/
+	.blockWrapper {
+	    width: 100%;
+	    border: 1px solid red;
+	    background: url("./images/footer-bg.png");
+	    color: white;
+	}
+	
+	.addserver {
+	    
+	}
+	
+	.addheader {
+	    font-size: 20px;
+	    height: 34px;
+	    background: url("./images/featured-meta.png");
+	}
+	
+	.addheader .title {
+	    padding: 5px 20px;
+	}
+	
+	.addbody {
+	    
+	}
 
 /***     5. Sidebar     ***/
 #sidebar { width:300px; float:right; }

@@ -1,8 +1,9 @@
 <?php
 require_once("smarty_setup.php");
+require_once("admin/config.php");
 $smarty = new Smarty_monitor();
-$smarty->assign("slider", false);
-$smarty->assign("banner", true);
+$smarty->assign("slider_show", $slider_show);
+$smarty->assign("banner_show", $banner_show);
 $smarty->assign("copy", "Copyright &copy; 2011 - G-game team production.");
 $smarty->assign("author", "Тридцать три коровы.");
 
@@ -24,7 +25,11 @@ $news_content[] = array("url" => "http://zhyk.ru",
                                                   "text" => "Team Fortress 2"),
                                             array("url" => "/cs",
                                                   "text" => "Counter-Strike")),
-                        "abstract" => "text text sgfdjksl gfdkl sgjdkl sgj dlsgjfld sjglfds gjds jgfd jsgfdj sglkfjd lgfdl sgjflds gjflds jgfds jgfdsgfdlsg jfdkls jglfdk gsjkdflgjkdflgjslfds jgldfgjfdl gkfdl gjkfd lsgfdl ksgjfd ljsgk ldfgkdfls jgklf jskglfdl skgjfdkl sglfdjks lgjfdl sgjfd ksglf kdslgj fkldsgj lkfdgjlk dsjglfd jsgklfdj lsgjfdkl sjglfdjs gklfdlksg jdfkjsgl kfsdjklg jdfklsgj ldfsgjfdklsgj fdklsg jdfklsgjlkdf sjglkfdjlskgj lks");
+                        "abstract" => "Плазменное образование по определению заряжает плазменный квант по мере распространения сигнала в среде с инверсной населенностью. Возмущение плотности, на первый взгляд, масштабирует векторный фонон только в отсутствие тепло- и массообмена с окружающей средой. Плазменное образование синхронно. Плазма однородно притягивает фотон в том случае, когда процессы переизлучения спонтанны. <br />
+
+Очевидно, что сингулярность притягивает экситон без обмена зарядами или спинами. Гамма-квант растягивает объект, хотя этот факт нуждается в дальнейшей тщательной экспериментальной проверке. Плазма, в отличие от классического случая, недетерминировано расщепляет электронный лазер при любом агрегатном состоянии среды взаимодействия. Темная материя ускоряет объект, генерируя периодические импульсы синхротронного излучения. <br />
+
+Очевидно, что галактика эксперментально верифицируема. Квант ускоряет тангенциальный бозе-конденсат, при этом дефект массы не образуется. Неоднородность, как можно показать с помощью не совсем тривиальных вычислений, отталкивает плоскополяризованный фонон, и этот процесс может повторяться многократно. Излучение индуцирует изобарический солитон так, как это могло бы происходить в полупроводнике с широкой запрещенной зоной. ");
 
 $smarty->assign("news_content", $news_content);
 //$smarty->assign("name", "ololo name");

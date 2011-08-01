@@ -4,14 +4,14 @@
 		<div id="footer-top">
 		
 			<ul id="footer-navigation">
-				<li><span> // </span><a href="#">Home</a></li>
-				<li><span> // </span><a href="#">About Us</a></li>
-				<li><span> // </span><a href="#">Contact</a></li>
-				<li><span> // </span><a href="#">Page Templates</a></li>
+				<li><a href="/">Домой</a></li>
+				<li><a href="/about.php">О нас</a></li>
+				<li><a href="/contact.php">Контакты</a></li>
+				<li><a href="http://zhyk.ru">Zhyk.ru</a></li>
 			</ul>
 			
 			<div id="back-top">
-				<a href="#">Back to top</a>
+				<a href="#">Наверх</a>
 			</div>
 			
 		</div>
@@ -27,7 +27,7 @@
 			<!-- BEGIN FOOTER WIDGET -->
 			<div class="footer-widget left">
 			
-				<h3>Latest News</h3>
+				<h3>Свежак</h3>
 				
 				<ul>
 					<li><a href="#">Minecraft sells over 1 million copies</a></li>
@@ -41,6 +41,8 @@
 			<!-- END FOOTER WIDGET -->
 			
 			<!-- BEGIN FOOTER WIDGET -->
+			
+			<!--
 			<div class="footer-widget middle">
 			
 				<h3>Archives</h3>
@@ -54,17 +56,18 @@
 				</ul>
 			
 			</div>
+			-->
 			<!-- END FOOTER WIDGET -->
 			
 			<!-- BEGIN FOOTER WIDGET -->
 			<div class="footer-widget middle">
 			
-				<h3>LeetPress On</h3>
+				<h3>Общение</h3>
 				<ul>
-					<li><a href="#">Facebook</a></li>
+					<li><a href="#">ВКонтакте</a></li>
 					<li><a href="#">Twitter</a></li>
 					<li><a href="#">Youtube</a></li>
-					<li><a href="#">iPhone</a></li>
+					<li><a href="#">Zhyk.ru</a></li>
 				</ul>
 			
 			</div>
@@ -73,9 +76,9 @@
 			<!-- BEGIN FOOTER WIDGET -->
 			<div class="footer-widget right">
 			
-				<h3>About LeetPress</h3>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+				<h3>{$app_name}</h3>
+				<p>{$app_description}.</p>
+				<p>{$slogan}</p>
 			
 			</div>
 			<!-- END FOOTER WIDGET -->
